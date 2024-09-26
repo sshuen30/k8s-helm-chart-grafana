@@ -1,5 +1,5 @@
 # grafana-helm-chart
-Deploy grafana onto a Kubernetes Cluster using Helm Chart
+Deploy grafana on a Kubernetes Cluster using Helm Chart
 
 - Create a Grafana namespace in your Kubernetes Cluster
 ```bash
