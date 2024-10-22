@@ -10,3 +10,14 @@ kubectl create namespace grafana
 ```bash
 helm install grafana grafana/grafana --namespace grafana
 ```
+
+- Retrieve the username and password
+```bash
+kubectl get secrets grafana -n grafana -o yaml
+```
+
+- Decode the password from base64
+```bash
+echo -n "cndfjtrls" | base64 --decode 
+```
+
